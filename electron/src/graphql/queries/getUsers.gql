@@ -1,0 +1,18 @@
+query getUsers {
+  getUsers {
+    id
+    name
+    email
+    phone
+    cin
+    licenseType
+    role
+    score
+    createdAt
+  }
+  countUsers
+  countUsersByDay {
+    _id
+    count
+  }
+}
